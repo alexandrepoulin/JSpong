@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC “-//W3C//DTD XHTML 1.0 Strict//EN”
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”>
+<html xmlns=”http://www.w3.org/1999/xhtml” lang=”en” xml:lang=”en”>
+
+<!-- get the game to stop -->
+
+<head>
+<link rel="stylesheet" type="text/css" href="pongStyles.css" media="screen" />
+<script type="text/javascript" src="jquery-1.8.0.js"></script> 
+<script src="pongJS.js">
+</script>
+
+</head>
+
+<body bgcolor="black">
+
+<div id="gameArea">
+	
+	<div id="middle"></div>
+	<a id="startDiv" onclick="startPress();">Start</a>
+
+
+	<form id="difficulty" name="difficultyList">
+		<h2>Select Difficulty</h2>
+		<input id="easy" type="radio" onclick="formDifficulty(1);" value="Easy"/>Easy <br />
+		<input id="normal" type="radio" onclick="formDifficulty(2);" value="Normal"/>Normal <br />
+		<input id="hard" type="radio" onclick="formDifficulty(3);" value="Hard"/>Hard <br />
+		<input id="nowin" type="radio" onclick="formDifficulty(4);" value="Can't Win"/>Can't Win<br />
+	</form>
+
+	<form id="speed" name="speedList">
+		<h2>Select Speed</h2>
+		<input id="slow" type="radio" onclick="formSpeed(1);" value="Slow"/>Slow <br />
+		<input id="medium" type="radio" onclick="formSpeed(2);" value="Medium"/>Medium <br />
+		<input id="fast" type="radio" onclick="formSpeed(3);" value="Fast"/>Fast <br />
+		<input id="superfast" type="radio" onclick="formSpeed(4);" value="superFast"/>Super Fast<br />
+	</form>
+
+	<form id="controls" name="controlList">
+		<h2>Select Controls</h2>
+		<input id="keyboard" type="radio" onclick="formControls(1);" value="Slow"/>Keyboard<br />
+		<input id="mouse" type="radio" onclick="formControls(2);" value="Medium"/>Mouse<br />
+	</form>
+
+	<form id="player" name="numOfPlayers">
+		<h2>Number Of Players</h2>
+		<input id="1player" type="radio" onclick="formPlayer(1);" value="Slow"/>1 Player<br />
+		<input id="2player" type="radio" onclick="formPlayer(2);" value="Medium"/>2 Player<br />
+	</form>
+
+	<form id="localOrNetwork" name="localOrNetwork">
+		<h2>Number Of Players</h2>
+		<input id="local" type="radio" onclick="formLON(1);" value="Slow"/>Local<br />
+	</form>
+	<p id="counter">3</p>
+
+	
+	<div id="paddleLeft"></div>
+	<div id="paddleRight"></div>
+	<div id="scoreLeft">0</div>
+	<div id="scoreRight">0</div>
+	<div id="ball" class="ball"></div>
+	<div id="ball2" class="ball"></div>
+	<div id="leftText"></div>
+	<div id="rightText"></div>
+	<button id="restart" type="button" onclick="startGame();">Restart?</button>
+	<button id="reset" type="button" onclick="reset();">Reset game?</button>
+
+</div>
+
+
+</script> 
+
+</body>
+</html>

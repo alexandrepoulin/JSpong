@@ -1,0 +1,176 @@
+#startDiv{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	background-color:transparent;
+	top: 400px;
+	right: 600px;
+	display: block;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:default;
+}
+
+h1{
+	text-align:center;
+	color:black;
+}
+
+form{
+	background-color:black;
+	position: absolute;
+	width:150px;
+	height:180px;
+	top:360px;
+	right:375px;
+	border: 2px solid #01FF29;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	display:none;
+}
+
+#gameArea{
+	position: absolute;
+	width: 900px;
+	height: 900px;
+	background-color: black;
+	border: 10px solid #01FF29;
+}
+
+p{
+	display: none;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 300px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#middle{
+	position: absolute;
+	width: 0px;
+	height: 900px;
+	border: 3px dashed #01FF29;
+	top: 0px;
+	right: 447px;
+	display:none;
+}
+
+.ball{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color:#01FF29;
+	top: 435px;
+	right: 435px;
+	display: none;
+}
+
+#paddleLeft{
+	position: absolute;
+	width: 30px;
+	height: 150px;
+	background-color:#01FF29;
+	top: 375px;
+	right: 840px;
+	display: none;
+}
+
+#paddleRight{
+	position: absolute;
+	width: 30px;
+	height: 150px;
+	background-color:#01FF29;
+	top: 375px;
+	right: 30px;
+	display: none;
+}
+
+#scoreLeft{
+	position: absolute;
+	width: 100px;
+	height: 85px;
+	background-color:transparent;
+	top:50px;
+	right: 550px;
+	display: none;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 50px;
+	text-align: center;
+}
+
+#scoreRight{
+	position: absolute;
+	width: 100px;
+	height: 85px;
+	background-color:transparent;
+	top: 50px;
+	right: 250px;
+	display: none;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2{
+	margin: 0px;
+}
+
+#leftText{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color:transparent;
+	top: 350px;
+	right: 550px;
+	display: none;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#rightText{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color:transparent;
+	top: 350px;
+	right: 150px;
+	display: none;
+	font-family: "courier new", "courier", monospace;
+	color: #01FF29;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#restart{
+	width:100px;
+	height:60px;
+	position: absolute;
+	top:150px;
+	right:400px;
+	display:none;
+}
+
+#reset{
+	width:100px;
+	height:60px;
+	position: absolute;
+	top:220px;
+	right:400px;
+	display:none;
+}
